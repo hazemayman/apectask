@@ -7,6 +7,8 @@ from django.contrib import messages
 def HomePage(request):
     print("here")
     return render(request , 'Base/index.html')
+def HomePageredirect(request):
+    return redirect('/home')
 def Requrtiment(request):
     return render(request , 'Base/Requrtiment.html')
 def Form(request):

@@ -7,7 +7,7 @@ urlpatterns = [
     # path('view/' , views.view , name = 'view'),
     # path('send/' , views.send , name = 'send'),
     # path('retrive/' , views.retrive , name = 'retrive')
-
+    path('' , views.HomePageredirect , name = "Home"),
     path('home/' , views.HomePage , name = "Home"),
     path('home/Requrtiment/', views.Requrtiment , name = "Requrtiment"),
     path('home/Requrtiment/form/' , include('Forms.urls') , name = 'form')
