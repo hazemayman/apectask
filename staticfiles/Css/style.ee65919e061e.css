@@ -1,0 +1,104 @@
+ body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins' , sans-serif;
+    color: #222;
+}
+
+/* navbar styling */
+.nav-img{
+    width: 30px;
+    height: 30px;
+}
+.navbar{
+    padding: .8rem;
+    text-shadow: #222;
+}
+.navbar-nav li{
+    padding-right: 10px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+
+/* slider styleling */
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px black;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    padding-bottom: 1rem;
+}
+
+
+
+.welcome-div{
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+
+
+
+
+.fa-code{
+    color: #e54d26;
+}
+  .fa-bold{
+    color: #563d7c;
+}
+  .fa-css3{
+    color: #2163af;
+}
+  .fa-bold , .fa-css3, .fa-code{
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.card-div{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-div{
+    padding: 20px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 50px auto;
+    
+}
+
+
+
+.button_forms{
+    display: flex;
+    justify-content: space-around;
+}

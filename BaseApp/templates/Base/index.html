@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <title>Requirtment Site</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </head>
+    <body>
+
+        <!-- navbar section -->
+       <nav class=" navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand brand-img" href="#"><img class="nav-img" src="{% static 'img/apecLogo.png' %}"></a>
+            <button class="navbar-toggler" type="button" data-toggle = "collapse" data-target = "#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="{% url 'Requrtiment' %}">Recruitment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider section  -->
+    <div id = "slides" class="carousel slide " data-ride = "carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner ">
+            <div class="carousel-item active" >
+                <img src="{% static 'img/background1.jpg' %}">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'img/background2.jpg' %}">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'img/background3.jpg' %}">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid padding welcome-div">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Build with ease</h1>
+            </div>
+            <hr>
+             <div class="col-12">
+                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper feugiat arcu ut vehicula. Integer ut leo vitae diam consequat volutpat sed tempus magna. Proin efficitur sagittis lorem. Nulla vestibulum pellentesque vestibulum. Nam rhoncus tempus mauris, placerat pharetra urna placerat at. Vestibulum ante ipsum</p>
+             </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <p class="lead">Build with the lastest version of html5</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <p class="lead">Build with the lastest version of BOOTSTRAP 4</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p class="lead">Build with the lastest version of Css3</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
