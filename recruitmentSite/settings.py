@@ -25,7 +25,7 @@ SECRET_KEY = 'wmo*+w&1+8n@tq45rgwthhvk#(c&2dd!%o$n2&4s)sz=!3g&!9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://apectask.herokuapp.com/']
+ALLOWED_HOSTS = ['apectask.herokuapp.com/']
 
 
 # Application definition
@@ -133,7 +133,6 @@ STATICFILES_DIRS = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # django_heroku.settings(locals())
-LOGIN_REDIRECT_URL = "/"
-LOGIN_URL = "login"
+
 django_heroku.settings(locals())
 

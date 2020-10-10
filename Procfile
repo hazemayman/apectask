@@ -1,1 +1,1 @@
-web: gunicorn achievementboard.wsgi
+web: gunicorn mysite.wsgi
